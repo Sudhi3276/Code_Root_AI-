@@ -1,50 +1,58 @@
-🌱 CodeRoot AI — Local Code Explanation Engine
-Powered by Ollama + CodeLlama
+<h1 align="center">🌱 CodeRoot AI — Local Code Explanation Engine</h1>
+<p align="center">Powered by <b>Ollama + CodeLlama</b></p>
+<p align="center"> CodeRoot AI is a privacy-focused, offline code explanation engine that uses <b>CodeLlama</b> through <b>Ollama</b> to interpret and explain code instantly.<br> It ensures complete data privacy by running fully on your local machine — no cloud, no external API, and no data sharing. </p>
+<h2>🧩 Project Description</h2>
 
-CodeRoot AI is a privacy-focused, offline code explanation engine that uses CodeLlama through Ollama to interpret and explain code instantly. It ensures that your code stays on your machine, offering fast, secure, and intelligent analysis without depending on cloud services.
+CodeRoot AI helps developers understand unfamiliar or complex code by generating clear, human-readable explanations directly from their local machine.
+Using open-source LLM models, it provides:
 
-🧩 Project Description
+Fast code interpretation
 
-CodeRoot AI is designed to help developers understand unfamiliar or complex code by generating clear, human-readable explanations directly from their local machine. With its modular architecture and simple command-line interface, it delivers fast, private, and offline code intelligence using open-source LLM models.
-Built for students, developers, and researchers, CodeRoot AI combines portability, performance, and complete code privacy.
+Secure offline processing
 
-🚀 Features
+Simple CLI interaction
+
+Extensible modular design
+
+It is ideal for students, developers, educators, and researchers who want a reliable and private AI code assistant.
+
+<h2>🚀 Features</h2>
 
 🧠 AI-powered code understanding using CodeLlama
 
-🔒 Fully offline — code never leaves your machine
+🔒 100% offline — code never leaves your device
 
-⚡ Fast and lightweight
+⚡ Lightweight & fast execution
 
-🖥️ CLI-based simple interface
+🖥️ Simple CLI interface for ease of use
 
-📦 Modular and extensible architecture
+📦 Modular and extensible Python architecture
 
-🧩 Works on Windows, macOS, and Linux
+🧩 Compatible with Windows, macOS, and Linux
 
-🛠️ Requirements
+<h2>🛠️ Requirements</h2>
 1. Python 3.10+
 
-Check if Python is installed:
+Check Python version:
 
 python --version
 
 2. Install Ollama
 
-Download and install Ollama from:
+Download Ollama:
 🔗 https://ollama.com/download
 
-Verify the installation:
+Verify installation:
 
 ollama --version
 
-3. Download CodeLlama Model
+3. Download CodeLlama
 
-Before running CodeRoot AI:
+Pull the model locally:
 
 ollama pull codellama
 
-📥 Installation
+<h2>📥 Installation</h2>
 
 Clone the repository:
 
@@ -57,7 +65,7 @@ Create a virtual environment:
 python -m venv venv
 
 
-Activate it:
+Activate environment:
 
 .\venv\Scripts\activate       # Windows
 source venv/bin/activate      # macOS/Linux
@@ -67,11 +75,11 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-▶️ How to Run CodeRoot AI
+<h2>▶️ How to Run CodeRoot AI</h2>
 
-Start the program:
+Run the main script:
 
 python main.py
 
 
-You will be prompted to paste your code snippet, and CodeRoot AI will generate a detailed explanation using CodeLlama.
+Paste your code snippet, and CodeRoot AI will generate a clean, structured explanation using CodeLlama.
